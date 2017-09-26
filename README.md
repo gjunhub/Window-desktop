@@ -1,7 +1,7 @@
 # Window-desktop
 原生JS编写仿电脑桌面功能
 
-### 在线预览  http://www.gjunhub.com/Window-desktop/
+### 在线预览  http://www.gjunhub.com/Window-desktop/index.html
 
 ## 实现功能
 ### 新建文件夹
