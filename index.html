@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Document</title>
+<link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+<div class="files">
+	<!-- <div class="file rubbish" id="rubbish"></div> -->
+<!-- 	<div class="file hover">
+		<img src="img/video.png" alt="" class="img">
+		<input type="text">
+		<p class="boxName">新建文件夹</p>
+	</div> -->
+</div>
+<ul id="list">
+	<!-- 	<li>
+		<p>新建……</p>
+		<ul>
+			<li>
+				<p class="createF">新建文件夹</p>
+			</li>
+		</ul>
+	</li>
+	<li>
+		<p>上传文件</p>
+	</li>
+	<li>
+		<p>排序方式</p>
+		<ul>
+			<li>
+				<p>名称排序</p>
+			</li>
+			<li>
+				<p>时间排序</p>
+			</li>
+			<li>
+				<p>类型排序</p>
+			</li>
+		</ul>
+	</li>
+	<li>
+		<p>刷新</p>
+	</li> -->
+</ul>
+<ul class="sublist">
+	<!-- <li>
+		<p>删除</p>
+	</li>
+	<li>
+		<p>重命名</p>
+	</li> -->
+</ul>
+<section class="bg">
+	<div></div>
+</section>
+<div class="back">返回首页</div>
+<!-- 上传文件 -->
+<input type="file" id="fileBtn" name="" class="upload" />
+<!-- 双击打开文件详情 -->
+<div class="fileDetail">
+	<div></div>
+	<a href="javascript:;">X</a>
+</div>
+<!-- 面包屑导航 -->
+<!-- <div class="paths">
+	<a href="javascript:;" class="back">返回上一级</a>
+	<span> | </span>
+	<ul class="crumbs"></ul>
+</div> -->
+<!-- 重命名遮罩层 -->
+<div class="maskBar">
+	<div>抱歉~文件重名啦!
+		<a href="javascript:;"></a>
+	</div>
+</div>
+<!-- 下拉换肤 -->
+<div class="rope"></div>
+<a href="javasctipt:;" class="skin"></a>
+<!-- 时钟 -->
+<div class="box3D">
+	<div class="watch">
+		<img src="img/1.png" alt="">
+		<img src="img/2.png" alt="">
+		<img src="img/3.png" alt="">
+		<img src="img/4.png" alt="">
+		<img src="img/5.png" alt="">
+		<img src="img/6.png" alt="">
+		<img src="img/7.png" alt="">
+		<img src="img/8.png" alt="">
+		<div class="hours"></div>
+		<div class="minutes"></div>
+		<div class="seconds"></div>
+	</div>
+	<span class="shadow"></span>
+</div>
+<!-- 展示台 -->
+<div class="showTable">
+	<img src="img/clock.png" alt="" class="clock">
+	<img src="img/calendar.png" alt="" class="calendar">
+</div>
+<!-- 日历 -->
+<div class="wrap">
+	<div class="main">
+		<div class="handle">
+			<p class="itme">14:41:45</p>
+			<span class="year"><!--2017年7月19日--> </span>
+			<span>六月二十六</span>
+		</div>
+		<div class="cons">
+			<span class="YTD">
+				2017年6月
+			</span>
+			<span class="updown">
+				<span><img src="img/up.png" alt="" /></span>
+				<span><img src="img/down.png" alt="" /></span>
+			</span>
+			<ul class="list claearFix">
+				<li>日</li>
+				<li>一</li>
+				<li>二</li>
+				<li>三</li>
+				<li>四</li>
+				<li>五</li>
+				<li>六</li>
+			</ul>
+			<div id="all">
+				<ul id="list2"></ul>
+			</div>
+		</div>
+		<div class="food"></div>
+	</div>
+</div>
+</body>
+<!-- 封装的框架 -->
+<script src="js/m.touch.js"></script>
+
+<script src="js/pinyin.js"></script>
+<script src="js/data.js"></script>
+<!-- 存放数据 -->
+<script src="js/model.js"></script>
+<!-- 操作数据-只操作数据 -->
+<script src="js/table.js"></script>
+<!-- 处理业务逻辑，封装index.js中复用的内容 -->
+<script src="js/index.js"></script>
+</html>
+
+
+
